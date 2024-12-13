@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kebappcoin.github.io/kebapp",
+  "homepage": "https://kebappcoin.github.io/Kebapp",
+  "overrides": {
+    "rollup": "^4.9.0"
+  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
